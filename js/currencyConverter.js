@@ -13,7 +13,8 @@ CurrencyConverter.prototype = {
     },
     convertTo: function(currency, amount){
         var toRate = Number(this._rates[currency])
-
+      
+    
         return (toRate * amount)
 
     }

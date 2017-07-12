@@ -12,12 +12,9 @@ request.onreadystatechange = function () {
 
         for (var rate in rates){
             $('#rates').append('<li><strong>' + rate + ':</strong> ' + rates[rate] + '</li>')
+            $('#ratesDropdown').append('<option value ="' + rate + '">' + rate + '</option>')
         }
         
-        var amount = prompt('How much GBP are you looking to convert?')
-        var currency = prompt('What currency would you like to convert to(enter 3 digit code in caps e.g. EUR)?')
-        var convertedAmount = currencyConverter.convertTo(currency, amount)
-        alert(amount + ' GBP in ' + currency + ' is ' + Number(convertedAmount).toFixed(2))
     }
 }
 request.send()
