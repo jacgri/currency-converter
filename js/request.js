@@ -12,7 +12,7 @@ request.onreadystatechange = function () {
 
         for (var rate in rates){
             $('#rates').append('<li><strong>' + rate + ':</strong> ' + rates[rate] + '</li>')
-            $('#ratesDropdown').append('<option value ="' + rate + '">' + rate + '</option>')
+            $('#ratesDropdown').append('<option value ="' + rate + '">' + rateDefinitions[rate] + '</option>')
         }
         
     }
