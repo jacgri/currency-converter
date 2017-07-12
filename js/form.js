@@ -6,7 +6,9 @@ $('#js-convert-gbp').submit(function(event){
     var currency = target.currency.value
     
     var convertedAmount = currencyConverter.convertTo(currency, amount)
-    alert(amount + ' GBP in ' + currency + ' is ' + convertedAmount)
-   
+    $("#convertedRate").html(function(){
+    return(amount + ' GBP in ' + currency + ' is ' + Number(convertedAmount).toFixed(2))
+
+    })
 })
 })
