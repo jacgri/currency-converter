@@ -16,5 +16,6 @@ request.onreadystatechange = function () {
         }
         
     }
+    $('#overlay').hide()
 }
 request.send()
