@@ -17,7 +17,9 @@
             <div class="loader">Loading...</div>
         </div>
     </div>
-    
+   
+    <h1> Currency Converter </h1>
+
     <form method="post" id="js-convert-gbp"> 
         <input type="text" name="amount" placeholder="Enter amount to convert in GBP" class="form-control">
         <select id="ratesDropdown" name="currency" class="form-control"> 
@@ -26,7 +28,8 @@
         <button type="submit" class ="btn">Convert:</button>
     </form>
 
-    <div id="convertedRate" class="alert alert-success" role="alert"></div>
+    <div id="convertedRate" class="alert" role="alert"></div>
+    <div id="errorMessage" class="alert" role="alert"></div>
 
     <h2>1 <strong>GBP</strong> is equivalent to:</h2>
     <ul id="rates">

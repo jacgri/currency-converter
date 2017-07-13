@@ -3,10 +3,16 @@ body {
   background-color: #3f0d4f;
 }
 
+h1 {
+  color:white;
+  margin:10px;
+}
+
 h2 {
   color: white;
   margin-left: 15px;
 }
+
 
 ul{
   color: white;
@@ -23,9 +29,14 @@ ul{
   margin: 15px;
 }
 
-.alert-success {
+#convertedRate {
+  background-color: #e7dad4;
+  margin-left: 15px;
+}
 
-  margin: 15px;
+#errorMessage {
+  color:red;
+  margin:  15px;
 }
 
 #overlay{
