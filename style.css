@@ -1,3 +1,33 @@
+body {
+  margin: 50px;
+  background-color: #3f0d4f;
+}
+
+h2 {
+  color: white;
+  margin-left: 15px;
+}
+
+ul{
+  color: white;
+  margin-left: 15px;
+}
+
+.btn {
+      color: black;
+      background-color: #e7dad4;
+      margin: 15px;
+}
+
+.form-control{
+  margin: 15px;
+}
+
+.alert-success {
+
+  margin: 15px;
+}
+
 #overlay{
     position: fixed;
     width: 100%;
